@@ -49,7 +49,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer__bottom">
-        Made with <span style={{ color: "red" }}>&#10084;</span> by <a className="link__name" href="https://www.linkedin.com/in/piyush-ranjan-1997d" target="_blank" rel="noreferrer">Piyush</a> and <a className="link__name" href="www.linkedin.com/in/piyush-ranjan-1997d" target="_blank" rel="noreferrer">Anusha</a>
+        Made with <span style={{ color: "red" }}>&#10084;</span> by <a className="link__name" href="https://www.linkedin.com/in/piyush-ranjan-1997d" target="_blank" rel="noreferrer">Piyush</a>
       </div>
     </footer>
   );
