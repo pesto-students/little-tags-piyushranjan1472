@@ -1,0 +1,39 @@
+.quantity-container{
+  display: flex;
+  align-items: center;
+  h5{
+    font-size: 15px;
+    margin-right: 10px;
+  }
+}
+
+.plus , .minus{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 40px;
+  padding: 0;
+  min-width: 40px;
+  min-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  color: #282c3f;
+  margin: 5px;
+  &:hover{
+    border-color:#c91a1a; 
+    color:#c91a1a;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.counter{
+  font-size: 15px;
+  font-weight: 400;
+  width: 2.5rem;
+  display: inline-block;
+ text-align: center;
+}

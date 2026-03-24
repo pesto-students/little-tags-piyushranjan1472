@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 11px 20px -6px rgb(255, 252, 251);
+  color: black;
+}
+.logo__part {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  // color: #474554;
+  .header__heading {
+    font-size: 55px;
+    color: var(--textColor);
+    cursor: pointer;
+    font-family: "Original Surfer", cursive;
+    letter-spacing: 0.1px;
+  }
+}
+.header__hamburger {
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 20px;
+  width: 30px;
+  z-index: 8;
+}
+.icons__and__modal {
+  flex-grow: 2;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  .header__searchBar {
+    margin: 0 2rem;
+    width: 40%;
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    color: var(--textColor);
+    font-size: 20px;
+    .sign__out__icon {
+      font-size: 26px;
+      margin-left: 6px;
+    }
+    .person {
+      font-size: 30px;
+    }
+  }
+  .basket {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .cart {
+      margin-left: 15px;
+      font-size: 26px;
+    }
+    .cart__notification {
+      background: #c91a1a;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      width: 1.5rem;
+      height: 1.5rem;
+      position: absolute;
+      right: -12px;
+      top: -6px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      .cart__number {
+        color: white;
+      }
+    }
+  }
+}
+.link__style {
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+// .header__heading {
+//   font-size: 55px;
+//   color: var(--textColor);
+//   cursor: pointer;
+//   // font-family: 'Allerta Stencil', sans-serif;
+//   // font-family: 'Poiret One', cursive;
+//   // font-family: 'Snowburst One', cursive;
+//   // font-family: 'Lexend Giga', sans-serif;
+//   // font-family: 'Zilla Slab Highlight', cursive;
+//   font-family: "Original Surfer", cursive;
+//   letter-spacing: 0.1px;
+// }
+
+.input__search__box {
+  padding: 1rem 2rem;
+}
